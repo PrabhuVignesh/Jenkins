@@ -1,0 +1,4 @@
+     Prefix Verb URI Pattern            Controller#Action
+       root GET  /                      user#index
+   user_new GET  /user/new(.:format)    user#new
+user_create POST /user/create(.:format) user#create
