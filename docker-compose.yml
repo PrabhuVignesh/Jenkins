@@ -20,15 +20,3 @@ web:
     - DB_PASSWORD=
   links:
     - db
-    # - redis
- 
-# sidekiq:
-#   build: .
-#   command: bundle exec sidekiq
-#   links:
-#     - db
-#     - redis
-#   volumes:
-#     - .:/usr/src/service
-view raw
-
